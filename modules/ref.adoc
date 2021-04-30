@@ -2,4 +2,6 @@
 
 With content.
 
-* xref:../a.adoc#hello[Try]
+I now know about `\{relative_prefix}`: {relative_prefix}
+
+* xref:{relative_prefix}/refs/a.adoc#hello[Try]

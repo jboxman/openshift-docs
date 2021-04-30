@@ -1,4 +1,6 @@
 [id="hello"]
 = A module link target
 
+I now know about `\{relative_prefix}`: {relative_prefix}
+
 With content.
