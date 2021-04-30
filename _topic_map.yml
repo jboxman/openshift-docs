@@ -32,3 +32,8 @@ Topics:
   Topics:
   - Name: b
     File: b
+  - Name: two
+    Dir: two
+    Topics:
+    - Name: c
+      File: c
