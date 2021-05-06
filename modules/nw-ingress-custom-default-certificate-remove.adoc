@@ -15,10 +15,10 @@ As an administrator, you can remove a custom certificate that you configured an 
 
 .Procedure
 
-* To remove the custom certificate and restore certificate that ships with {product-title}, enter the following command:
+* To remove the custom certificate and restore the certificate that ships with {product-title}, enter the following command:
 +
 [source,terminal]
 ----
 $ oc patch -n openshift-ingress-operator ingresscontrollers/default \
-  --type json -p $'- op: remove\n  path: /spec/defaultCertificate'
+  --type json -p '- op: remove\n  path: /spec/defaultCertificate'
 ----
