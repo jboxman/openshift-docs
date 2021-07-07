@@ -34,7 +34,8 @@ $ oc edit secret openshift-gitops-secret -n <namespace>
 ----
 yaml apiVersion: v1 
 kind: Secret 
-metadata: name: argocd-secret 
+metadata:
+  name: argocd-secret 
 data:
   oidc.keycloak.clientSecret: ODMwODM5NTgtOGVjNi00N2IwLWE0MTEtYThjNTUzODFmYmQy …
 ----
